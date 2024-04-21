@@ -1,0 +1,9 @@
+
+spring:
+    application:
+      name: dubbo-consumer
+
+dubbo:
+    application:
+    qos-enable: false
+
