@@ -11,6 +11,6 @@ public class UserServiceImpl implements UserService {
     @Override
     public boolean login(String name, String pwd) {
         log.info("login name: {}, pwd: {}", name, pwd);
-        return false;
+        return true;
     }
 }
